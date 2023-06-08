@@ -94,10 +94,10 @@ endmodule
 
 
 ### TRUTH TABLE 
-https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/muxtt.png
+![img](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/muxtt.png)
 
 
-https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/demuxtt.png
+![img](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/demuxtt.png)
 
 
 
