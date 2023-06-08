@@ -54,11 +54,24 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: PRAVEEN S
+RegisterNumber:  212222240077
 */
-
-
+### MUX
+```
+module tt(I0,I1,I2,I3,S0,S1,Y);
+input I0,I1,I2,I3,S0,S1;
+output Y;
+wire P,Q,R,S,S0C,S1C;
+not (S0C,S0);
+not (S1C,S1);
+and (P,S0C,S1C,I0);
+and (Q,S0C,S1,I1);
+and (R,S0,S1C,I2);
+and (S,S0,S1,I3);
+or (Y,P,Q,R,S);
+endmodule
+```
 
 
 
@@ -66,9 +79,11 @@ RegisterNumber:
 ### RTL LOGIC  
 
 
+![Screenshot 2023-06-08 103630](https://github.com/praveenst13/Exercise-07-Multiplexer-and-De-multiplexer/assets/118787793/c69efa53-1147-4ba2-bd03-9b70d14e808b)
 
 
 
+![Screenshot 2023-06-08 105747](https://github.com/praveenst13/Exercise-07-Multiplexer-and-De-multiplexer/assets/118787793/1497a234-7e3a-4814-bbb6-ccdf4d793fbb)
 
 
 
@@ -79,8 +94,10 @@ RegisterNumber:
 
 
 ### TRUTH TABLE 
+https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/muxtt.png
 
 
+https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/demuxtt.png
 
 
 
