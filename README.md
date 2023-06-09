@@ -103,11 +103,12 @@ endmodule
 
 ![IMG](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/muxrtl.png)
 ### DE-MUX
-![IMG](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/muxwave.png)
+![IMG](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/demuxrtl.png)
+
 
 ### TIMING DIGRAMS  
 ### MUX
-![IMG](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/demuxrtl.png)
+![IMG](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/muxwave.png)
 ### DE-MUX
 ![IMG](https://github.com/22009071/Exercise-07-Multiplexer-and-De-multiplexer/raw/main/demuxwave.png)
 ### TRUTH TABLE 
